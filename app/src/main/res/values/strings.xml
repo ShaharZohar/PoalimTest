@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PoalimExam</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Like</string>
+    <string name="action_movie_info">Movie Info</string>
+    <string name="backdrop_title">Latest Movies</string>
+    <string name="backdrop_subtitle">You can like a movie by pressing the dots</string>
+    <string name="overview">Overview:</string>
+    <string name="rating">Rating:</string>
+    <string name="year">Year:</string>
+</resources>

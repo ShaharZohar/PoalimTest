@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.poalim.exam.MovieActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="tvTitle" />
+
+        <ImageView
+            android:id="@+id/ivPoster"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/tvTitle"
+            android:src="@drawable/cover_img"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvOverviewTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivPoster"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="@string/overview" />
+
+        <TextView
+            android:id="@+id/tvOverview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvOverviewTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="tvOverview" />
+
+        <TextView
+            android:id="@+id/tvRatingTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvOverview"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/rating" />
+
+        <TextView
+            android:id="@+id/tvVoteAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRatingTitle"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="tvVoteAverage" />
+
+        <TextView
+            android:id="@+id/tvReleaseDateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvVoteAverage"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/year" />
+
+        <TextView
+            android:id="@+id/tvReleaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvReleaseDateTitle"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="tvReleaseDate" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
